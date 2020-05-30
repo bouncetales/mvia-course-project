@@ -1,0 +1,4 @@
+/home/zk/QT/01/openimage/build/CMakeFiles/rebuild_cache.dir
+/home/zk/QT/01/openimage/build/CMakeFiles/openimage.dir
+/home/zk/QT/01/openimage/build/CMakeFiles/edit_cache.dir
+/home/zk/QT/01/openimage/build/CMakeFiles/openimage_autogen.dir
