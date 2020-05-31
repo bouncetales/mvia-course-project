@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zk/QT/01/openimage
+CMAKE_SOURCE_DIR = /home/zk/nit/git/mvia-course-project/mv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zk/QT/01/openimage/build
+CMAKE_BINARY_DIR = /home/zk/nit/git/mvia-course-project/mv/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/openimage.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/openimage.dir/flags.make
 
 CMakeFiles/openimage.dir/imageviewer.cpp.o: CMakeFiles/openimage.dir/flags.make
 CMakeFiles/openimage.dir/imageviewer.cpp.o: ../imageviewer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zk/QT/01/openimage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/openimage.dir/imageviewer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openimage.dir/imageviewer.cpp.o -c /home/zk/QT/01/openimage/imageviewer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zk/nit/git/mvia-course-project/mv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/openimage.dir/imageviewer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openimage.dir/imageviewer.cpp.o -c /home/zk/nit/git/mvia-course-project/mv/imageviewer.cpp
 
 CMakeFiles/openimage.dir/imageviewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/openimage.dir/imageviewer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zk/QT/01/openimage/imageviewer.cpp > CMakeFiles/openimage.dir/imageviewer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zk/nit/git/mvia-course-project/mv/imageviewer.cpp > CMakeFiles/openimage.dir/imageviewer.cpp.i
 
 CMakeFiles/openimage.dir/imageviewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openimage.dir/imageviewer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zk/QT/01/openimage/imageviewer.cpp -o CMakeFiles/openimage.dir/imageviewer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zk/nit/git/mvia-course-project/mv/imageviewer.cpp -o CMakeFiles/openimage.dir/imageviewer.cpp.s
 
 CMakeFiles/openimage.dir/imageviewer.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/openimage.dir/imageviewer.cpp.o.provides.build: CMakeFiles/openimage.
 
 CMakeFiles/openimage.dir/main.cpp.o: CMakeFiles/openimage.dir/flags.make
 CMakeFiles/openimage.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zk/QT/01/openimage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/openimage.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openimage.dir/main.cpp.o -c /home/zk/QT/01/openimage/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zk/nit/git/mvia-course-project/mv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/openimage.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openimage.dir/main.cpp.o -c /home/zk/nit/git/mvia-course-project/mv/main.cpp
 
 CMakeFiles/openimage.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/openimage.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zk/QT/01/openimage/main.cpp > CMakeFiles/openimage.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zk/nit/git/mvia-course-project/mv/main.cpp > CMakeFiles/openimage.dir/main.cpp.i
 
 CMakeFiles/openimage.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openimage.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zk/QT/01/openimage/main.cpp -o CMakeFiles/openimage.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zk/nit/git/mvia-course-project/mv/main.cpp -o CMakeFiles/openimage.dir/main.cpp.s
 
 CMakeFiles/openimage.dir/main.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/openimage.dir/main.cpp.o.provides.build: CMakeFiles/openimage.dir/mai
 
 CMakeFiles/openimage.dir/mainwindow.cpp.o: CMakeFiles/openimage.dir/flags.make
 CMakeFiles/openimage.dir/mainwindow.cpp.o: ../mainwindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zk/QT/01/openimage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/openimage.dir/mainwindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openimage.dir/mainwindow.cpp.o -c /home/zk/QT/01/openimage/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zk/nit/git/mvia-course-project/mv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/openimage.dir/mainwindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openimage.dir/mainwindow.cpp.o -c /home/zk/nit/git/mvia-course-project/mv/mainwindow.cpp
 
 CMakeFiles/openimage.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/openimage.dir/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zk/QT/01/openimage/mainwindow.cpp > CMakeFiles/openimage.dir/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zk/nit/git/mvia-course-project/mv/mainwindow.cpp > CMakeFiles/openimage.dir/mainwindow.cpp.i
 
 CMakeFiles/openimage.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openimage.dir/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zk/QT/01/openimage/mainwindow.cpp -o CMakeFiles/openimage.dir/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zk/nit/git/mvia-course-project/mv/mainwindow.cpp -o CMakeFiles/openimage.dir/mainwindow.cpp.s
 
 CMakeFiles/openimage.dir/mainwindow.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/openimage.dir/mainwindow.cpp.o.provides.build: CMakeFiles/openimage.d
 
 CMakeFiles/openimage.dir/openimage_autogen/mocs_compilation.cpp.o: CMakeFiles/openimage.dir/flags.make
 CMakeFiles/openimage.dir/openimage_autogen/mocs_compilation.cpp.o: openimage_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zk/QT/01/openimage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/openimage.dir/openimage_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openimage.dir/openimage_autogen/mocs_compilation.cpp.o -c /home/zk/QT/01/openimage/build/openimage_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zk/nit/git/mvia-course-project/mv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/openimage.dir/openimage_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openimage.dir/openimage_autogen/mocs_compilation.cpp.o -c /home/zk/nit/git/mvia-course-project/mv/build/openimage_autogen/mocs_compilation.cpp
 
 CMakeFiles/openimage.dir/openimage_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/openimage.dir/openimage_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zk/QT/01/openimage/build/openimage_autogen/mocs_compilation.cpp > CMakeFiles/openimage.dir/openimage_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zk/nit/git/mvia-course-project/mv/build/openimage_autogen/mocs_compilation.cpp > CMakeFiles/openimage.dir/openimage_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/openimage.dir/openimage_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openimage.dir/openimage_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zk/QT/01/openimage/build/openimage_autogen/mocs_compilation.cpp -o CMakeFiles/openimage.dir/openimage_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zk/nit/git/mvia-course-project/mv/build/openimage_autogen/mocs_compilation.cpp -o CMakeFiles/openimage.dir/openimage_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/openimage.dir/openimage_autogen/mocs_compilation.cpp.o.requires:
 
@@ -218,7 +218,7 @@ openimage: /usr/local/lib/libopencv_photo.so.3.4.7
 openimage: /usr/local/lib/libopencv_imgproc.so.3.4.7
 openimage: /usr/local/lib/libopencv_core.so.3.4.7
 openimage: CMakeFiles/openimage.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zk/QT/01/openimage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable openimage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zk/nit/git/mvia-course-project/mv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable openimage"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/openimage.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -238,6 +238,6 @@ CMakeFiles/openimage.dir/clean:
 .PHONY : CMakeFiles/openimage.dir/clean
 
 CMakeFiles/openimage.dir/depend:
-	cd /home/zk/QT/01/openimage/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zk/QT/01/openimage /home/zk/QT/01/openimage /home/zk/QT/01/openimage/build /home/zk/QT/01/openimage/build /home/zk/QT/01/openimage/build/CMakeFiles/openimage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zk/nit/git/mvia-course-project/mv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zk/nit/git/mvia-course-project/mv /home/zk/nit/git/mvia-course-project/mv /home/zk/nit/git/mvia-course-project/mv/build /home/zk/nit/git/mvia-course-project/mv/build /home/zk/nit/git/mvia-course-project/mv/build/CMakeFiles/openimage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/openimage.dir/depend
 

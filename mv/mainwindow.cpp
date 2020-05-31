@@ -233,7 +233,7 @@ int MainWindow::on_pushButton_cameratrack_clicked()
     using namespace cv;
     using namespace std;
     Mat frame,src;
-    Mat TrackPic=cv::Mat::zeros(500,500,CV_8UC3);
+    Mat TrackPic=cv::Mat::zeros(500,600,CV_8UC3);
     char c=0;
     VideoCapture capture(0);
     remove("vector.txt");
@@ -254,9 +254,10 @@ int MainWindow::on_pushButton_cameratrack_clicked()
             circle(frame,center,3,Scalar(0,255,0),-1,8,0);
             circle(frame,center,radius,Scalar(155,50,255),3,8,0);
             printf("x=%d,y=%d\n",cvRound(circles[i][0]),cvRound(circles[i][1]));
+            line(TrackPic,Point(center.x,center.y),Point(center.x,center.y),Scalar(255, 255, 0), 2);
 /*********************************霍夫变换检测圆,画出轮廓、中心点******************************/
 
-/*************************************存轨迹点*********************************************/
+/*************************************存、画轨迹点*********************************************/
             std::ofstream fout;
             fout.open("vector.txt",ios::app);
             for (int l = 0; l < circles.size(); ++l)
@@ -264,7 +265,10 @@ int MainWindow::on_pushButton_cameratrack_clicked()
                 fout << center.x<<' '<< center.y<< endl;
             }
             fout.close();
-/*************************************存轨迹点*********************************************/
+            namedWindow("1");
+            imshow("1",TrackPic);
+            imwrite("1.jpg",TrackPic);
+/*************************************存、画轨迹点*********************************************/
         }
         // namedWindow("1");
         // imshow("1",TrackPic);
@@ -286,13 +290,15 @@ int MainWindow::on_pushButton_approx_clicked()
 {
     using namespace cv;
     using namespace std;
+    Mat src;
+    src=imread("1.jpg");
     float a,b,c,d,s;
     Mat TrackPic=cv::Mat::zeros(500,500,CV_8UC3);
     vector<vector<Point>> contours;
     vector<Point>p;
 /************************读取保存坐标文件并输出到vector容器中******************************/
     ifstream outfile;
-    outfile.open("/home/zk/QT/01/openimage/build/vector.txt");
+    outfile.open("vector.txt");
     Point temp;
     double temp1=0,temp2=0;
     while(!outfile.eof())
@@ -377,7 +383,9 @@ int MainWindow::on_pushButton_approx_clicked()
         cout<<lines[i]<<endl;
 /**************************************形状判断*******************************************/
     }
-            imshow("approx",TrackPic);
-            waitKey(0);
-            return 0;
+    namedWindow("1");
+    imshow("1",src);
+    imshow("approx",TrackPic);
+    waitKey(0);
+    return 0;
 }

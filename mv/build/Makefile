@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zk/QT/01/openimage
+CMAKE_SOURCE_DIR = /home/zk/nit/git/mvia-course-project/mv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zk/QT/01/openimage/build
+CMAKE_BINARY_DIR = /home/zk/nit/git/mvia-course-project/mv/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zk/QT/01/openimage/build/CMakeFiles /home/zk/QT/01/openimage/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zk/nit/git/mvia-course-project/mv/build/CMakeFiles /home/zk/nit/git/mvia-course-project/mv/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zk/QT/01/openimage/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zk/nit/git/mvia-course-project/mv/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

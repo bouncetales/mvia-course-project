@@ -38,7 +38,7 @@ public:
     QPushButton *pushButton_opencamera;
     QPushButton *pushButton_cameratrack;
     QPushButton *pushButton_approx;
-    QWidget *widget;
+    QWidget *layoutWidget;
     QVBoxLayout *verticalLayout;
     QLabel *label;
     QLabel *label_3;
@@ -85,25 +85,25 @@ public:
         pushButton_approx->setObjectName(QStringLiteral("pushButton_approx"));
         pushButton_approx->setGeometry(QRect(150, 90, 91, 51));
         pushButton_approx->setFont(font);
-        widget = new QWidget(tab);
-        widget->setObjectName(QStringLiteral("widget"));
-        widget->setGeometry(QRect(430, 20, 87, 77));
-        verticalLayout = new QVBoxLayout(widget);
+        layoutWidget = new QWidget(tab);
+        layoutWidget->setObjectName(QStringLiteral("layoutWidget"));
+        layoutWidget->setGeometry(QRect(430, 20, 121, 77));
+        verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setSpacing(6);
         verticalLayout->setContentsMargins(11, 11, 11, 11);
         verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
-        label = new QLabel(widget);
+        label = new QLabel(layoutWidget);
         label->setObjectName(QStringLiteral("label"));
 
         verticalLayout->addWidget(label);
 
-        label_3 = new QLabel(widget);
+        label_3 = new QLabel(layoutWidget);
         label_3->setObjectName(QStringLiteral("label_3"));
 
         verticalLayout->addWidget(label_3);
 
-        label_2 = new QLabel(widget);
+        label_2 = new QLabel(layoutWidget);
         label_2->setObjectName(QStringLiteral("label_2"));
 
         verticalLayout->addWidget(label_2);

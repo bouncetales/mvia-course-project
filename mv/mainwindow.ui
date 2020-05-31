@@ -133,12 +133,12 @@
        <string>Approx</string>
       </property>
      </widget>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
         <x>430</x>
         <y>20</y>
-        <width>87</width>
+        <width>121</width>
         <height>77</height>
        </rect>
       </property>

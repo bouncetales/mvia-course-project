@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zk/QT/01/openimage
+CMAKE_SOURCE_DIR = /home/zk/nit/git/mvia-course-project/mv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zk/QT/01/openimage/build
+CMAKE_BINARY_DIR = /home/zk/nit/git/mvia-course-project/mv/build
 
 # Utility rule file for openimage_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/zk/QT/01/openimage/build
 include CMakeFiles/openimage_autogen.dir/progress.make
 
 CMakeFiles/openimage_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zk/QT/01/openimage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC, UIC and RCC for target openimage"
-	/usr/bin/cmake -E cmake_autogen /home/zk/QT/01/openimage/build/CMakeFiles/openimage_autogen.dir ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zk/nit/git/mvia-course-project/mv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC, UIC and RCC for target openimage"
+	/usr/bin/cmake -E cmake_autogen /home/zk/nit/git/mvia-course-project/mv/build/CMakeFiles/openimage_autogen.dir ""
 
 openimage_autogen: CMakeFiles/openimage_autogen
 openimage_autogen: CMakeFiles/openimage_autogen.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/openimage_autogen.dir/clean:
 .PHONY : CMakeFiles/openimage_autogen.dir/clean
 
 CMakeFiles/openimage_autogen.dir/depend:
-	cd /home/zk/QT/01/openimage/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zk/QT/01/openimage /home/zk/QT/01/openimage /home/zk/QT/01/openimage/build /home/zk/QT/01/openimage/build /home/zk/QT/01/openimage/build/CMakeFiles/openimage_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zk/nit/git/mvia-course-project/mv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zk/nit/git/mvia-course-project/mv /home/zk/nit/git/mvia-course-project/mv /home/zk/nit/git/mvia-course-project/mv/build /home/zk/nit/git/mvia-course-project/mv/build /home/zk/nit/git/mvia-course-project/mv/build/CMakeFiles/openimage_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/openimage_autogen.dir/depend
 

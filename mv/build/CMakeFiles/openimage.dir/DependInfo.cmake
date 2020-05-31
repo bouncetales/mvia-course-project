@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zk/QT/01/openimage/imageviewer.cpp" "/home/zk/QT/01/openimage/build/CMakeFiles/openimage.dir/imageviewer.cpp.o"
-  "/home/zk/QT/01/openimage/main.cpp" "/home/zk/QT/01/openimage/build/CMakeFiles/openimage.dir/main.cpp.o"
-  "/home/zk/QT/01/openimage/mainwindow.cpp" "/home/zk/QT/01/openimage/build/CMakeFiles/openimage.dir/mainwindow.cpp.o"
-  "/home/zk/QT/01/openimage/build/openimage_autogen/mocs_compilation.cpp" "/home/zk/QT/01/openimage/build/CMakeFiles/openimage.dir/openimage_autogen/mocs_compilation.cpp.o"
+  "/home/zk/nit/git/mvia-course-project/mv/imageviewer.cpp" "/home/zk/nit/git/mvia-course-project/mv/build/CMakeFiles/openimage.dir/imageviewer.cpp.o"
+  "/home/zk/nit/git/mvia-course-project/mv/main.cpp" "/home/zk/nit/git/mvia-course-project/mv/build/CMakeFiles/openimage.dir/main.cpp.o"
+  "/home/zk/nit/git/mvia-course-project/mv/mainwindow.cpp" "/home/zk/nit/git/mvia-course-project/mv/build/CMakeFiles/openimage.dir/mainwindow.cpp.o"
+  "/home/zk/nit/git/mvia-course-project/mv/build/openimage_autogen/mocs_compilation.cpp" "/home/zk/nit/git/mvia-course-project/mv/build/CMakeFiles/openimage.dir/openimage_autogen/mocs_compilation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

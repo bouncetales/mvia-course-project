@@ -1,4 +1,4 @@
-/home/zk/QT/01/openimage/build/CMakeFiles/rebuild_cache.dir
-/home/zk/QT/01/openimage/build/CMakeFiles/openimage.dir
-/home/zk/QT/01/openimage/build/CMakeFiles/edit_cache.dir
-/home/zk/QT/01/openimage/build/CMakeFiles/openimage_autogen.dir
+/home/zk/nit/git/mvia-course-project/mv/build/CMakeFiles/rebuild_cache.dir
+/home/zk/nit/git/mvia-course-project/mv/build/CMakeFiles/openimage.dir
+/home/zk/nit/git/mvia-course-project/mv/build/CMakeFiles/edit_cache.dir
+/home/zk/nit/git/mvia-course-project/mv/build/CMakeFiles/openimage_autogen.dir

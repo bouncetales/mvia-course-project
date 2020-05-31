@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/zk/QT/01/openimage/asmOpenCV.h
+/home/zk/nit/git/mvia-course-project/mv/asmOpenCV.h
 QDebug
 -
 QImage
@@ -16,55 +16,55 @@ QPixmap
 QtGlobal
 -
 opencv2/imgproc/imgproc.hpp
-/home/zk/QT/01/openimage/opencv2/imgproc/imgproc.hpp
+/home/zk/nit/git/mvia-course-project/mv/opencv2/imgproc/imgproc.hpp
 opencv2/imgproc/types_c.h
-/home/zk/QT/01/openimage/opencv2/imgproc/types_c.h
+/home/zk/nit/git/mvia-course-project/mv/opencv2/imgproc/types_c.h
 
-/home/zk/QT/01/openimage/build/openimage_autogen/EWIEGA46WW/moc_imageviewer.cpp
+/home/zk/nit/git/mvia-course-project/mv/build/openimage_autogen/EWIEGA46WW/moc_imageviewer.cpp
 ../../../imageviewer.h
-/home/zk/QT/01/openimage/imageviewer.h
+/home/zk/nit/git/mvia-course-project/mv/imageviewer.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/zk/QT/01/openimage/build/openimage_autogen/EWIEGA46WW/moc_mainwindow.cpp
+/home/zk/nit/git/mvia-course-project/mv/build/openimage_autogen/EWIEGA46WW/moc_mainwindow.cpp
 ../../../mainwindow.h
-/home/zk/QT/01/openimage/mainwindow.h
+/home/zk/nit/git/mvia-course-project/mv/mainwindow.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/zk/QT/01/openimage/build/openimage_autogen/mocs_compilation.cpp
+/home/zk/nit/git/mvia-course-project/mv/build/openimage_autogen/mocs_compilation.cpp
 EWIEGA46WW/moc_imageviewer.cpp
-/home/zk/QT/01/openimage/build/openimage_autogen/EWIEGA46WW/moc_imageviewer.cpp
+/home/zk/nit/git/mvia-course-project/mv/build/openimage_autogen/EWIEGA46WW/moc_imageviewer.cpp
 EWIEGA46WW/moc_mainwindow.cpp
-/home/zk/QT/01/openimage/build/openimage_autogen/EWIEGA46WW/moc_mainwindow.cpp
+/home/zk/nit/git/mvia-course-project/mv/build/openimage_autogen/EWIEGA46WW/moc_mainwindow.cpp
 
-/home/zk/QT/01/openimage/imageviewer.cpp
+/home/zk/nit/git/mvia-course-project/mv/imageviewer.cpp
 QtWidgets
 -
 imageviewer.h
-/home/zk/QT/01/openimage/imageviewer.h
+/home/zk/nit/git/mvia-course-project/mv/imageviewer.h
 
-/home/zk/QT/01/openimage/imageviewer.h
+/home/zk/nit/git/mvia-course-project/mv/imageviewer.h
 QMainWindow
 -
 
-/home/zk/QT/01/openimage/main.cpp
+/home/zk/nit/git/mvia-course-project/mv/main.cpp
 mainwindow.h
-/home/zk/QT/01/openimage/mainwindow.h
+/home/zk/nit/git/mvia-course-project/mv/mainwindow.h
 QApplication
 -
 
-/home/zk/QT/01/openimage/mainwindow.cpp
+/home/zk/nit/git/mvia-course-project/mv/mainwindow.cpp
 mainwindow.h
-/home/zk/QT/01/openimage/mainwindow.h
+/home/zk/nit/git/mvia-course-project/mv/mainwindow.h
 ui_mainwindow.h
-/home/zk/QT/01/openimage/ui_mainwindow.h
+/home/zk/nit/git/mvia-course-project/mv/ui_mainwindow.h
 asmOpenCV.h
-/home/zk/QT/01/openimage/asmOpenCV.h
+/home/zk/nit/git/mvia-course-project/mv/asmOpenCV.h
 iostream
 -
 string
@@ -84,9 +84,9 @@ opencv2/highgui.hpp
 opencv2/opencv.hpp
 -
 
-/home/zk/QT/01/openimage/mainwindow.h
+/home/zk/nit/git/mvia-course-project/mv/mainwindow.h
 imageviewer.h
-/home/zk/QT/01/openimage/imageviewer.h
+/home/zk/nit/git/mvia-course-project/mv/imageviewer.h
 QtWidgets
 -
 opencv2/core.hpp
