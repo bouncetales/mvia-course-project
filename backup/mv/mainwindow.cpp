@@ -13,14 +13,6 @@
 #include <opencv2/highgui.hpp>  // OpenCV window I/O
 #include <opencv2/opencv.hpp>
 
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
-#include<unistd.h>
-#include<arpa/inet.h>
-#include<sys/socket.h>
-#include<time.h>
-
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
@@ -248,13 +240,12 @@ int MainWindow::on_pushButton_cameratrack_clicked()
     while(1)
     {
         capture >> frame;
-        flip(frame,frame,1);
         Mat midImage;
         cvtColor(frame,midImage,CV_BGR2GRAY);
         GaussianBlur(midImage,midImage,Size(9,9),2,2);
         vector<Vec3f>circles;
 /*********************************霍夫变换检测圆,画出轮廓、中心点******************************/
-        HoughCircles(midImage,circles,CV_HOUGH_GRADIENT,1.5,200,100,100,0,0);
+        HoughCircles(midImage,circles,CV_HOUGH_GRADIENT,1.5,100,150,100,0,0);
 
         for(size_t i=0;i<circles.size();i++)
         {
@@ -331,7 +322,7 @@ int MainWindow::on_pushButton_approx_clicked()
     vector<vector<Point>> lines(contours.size());
     for(int i=0;i<contours.size();i++)
     {
-        approxPolyDP(contours[i],lines[i],30,true);
+        approxPolyDP(contours[i],lines[i],15,true);
         drawContours(TrackPic, lines, i, Scalar(0, 255, 255), 2, 8);  //绘制
 /******************************逼近拟合、画轮廓*****************************************/
 
@@ -383,10 +374,6 @@ int MainWindow::on_pushButton_approx_clicked()
             }
             else if(lines[i].size()>5)
             {
-                Point2f center; float radius;
-                minEnclosingCircle(lines[i],center,radius);
-                circle(TrackPic,center,radius,Scalar(255),2);
-                imshow("circle",TrackPic);
                 cout<<"圆"<<endl;
             }
             else

@@ -83,20 +83,6 @@ opencv2/highgui.hpp
 -
 opencv2/opencv.hpp
 -
-stdio.h
--
-string.h
--
-stdlib.h
--
-unistd.h
--
-arpa/inet.h
--
-sys/socket.h
--
-time.h
--
 
 /home/zk/nit/git/mvia-course-project/mv/mainwindow.h
 imageviewer.h
