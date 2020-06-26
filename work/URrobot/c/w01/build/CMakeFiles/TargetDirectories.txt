@@ -1,0 +1,4 @@
+/home/zk/Desktop/URrobot/c/w01/build/CMakeFiles/rebuild_cache.dir
+/home/zk/Desktop/URrobot/c/w01/build/CMakeFiles/1.dir
+/home/zk/Desktop/URrobot/c/w01/build/CMakeFiles/edit_cache.dir
+/home/zk/Desktop/URrobot/c/w01/build/CMakeFiles/1_autogen.dir

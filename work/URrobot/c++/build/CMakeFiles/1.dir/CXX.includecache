@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/blaauw/URrobot/c++/1.cc
+stdio.h
+-
+sys/types.h
+-
+stdlib.h
+-
+string
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+iostream
+-
+string.h
+-
+opencv2/opencv.hpp
+-
+time.h
+-
+unistd.h
+-
+fcntl.h
+-
+fstream
+-
+opencv2/imgproc/imgproc.hpp
+-
+vector
+-
+

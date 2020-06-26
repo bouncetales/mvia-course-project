@@ -1,0 +1,3 @@
+/home/zk/work/guiji/jisuan/build/CMakeFiles/rebuild_cache.dir
+/home/zk/work/guiji/jisuan/build/CMakeFiles/jisuan.dir
+/home/zk/work/guiji/jisuan/build/CMakeFiles/edit_cache.dir

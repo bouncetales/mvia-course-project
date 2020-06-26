@@ -1,0 +1,4 @@
+/home/zk/work/MVProject/build/CMakeFiles/rebuild_cache.dir
+/home/zk/work/MVProject/build/CMakeFiles/MVProject.dir
+/home/zk/work/MVProject/build/CMakeFiles/edit_cache.dir
+/home/zk/work/MVProject/build/CMakeFiles/MVProject_autogen.dir
